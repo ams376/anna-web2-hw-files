@@ -19,6 +19,7 @@
             grid-template-columns: 70% auto;
             grid-template-areas: "h2-1 h2-2"
                                  "h2-1 h2-3";
+            grid-template-rows: repeat(2, 300px);
         }
 
         @include xxl{
@@ -26,28 +27,39 @@
         }
 
 
+        li {
+            background-position: center;
+            background-size: cover;
+            height: 320px;
 
+            @include md {
+                height: 500px;
+            }
 
-        li{
-            img{
-                width: 100%;
+            @include lg {
+                height: auto;
             }
         }
 
         #h2-1{
+            background-image: url("../img/hero-2/hero-2-1.jpg");
             @include xl{
                 grid-area: h2-1;
             }
         }
 
         #h2-2{
+            background-image: url("../img/hero-2/hero-2-2.jpg");
             @include xl{
                 grid-area: h2-2;
             }
         }
 
         #h2-3{
+            background-image: url("../img/hero-2/hero-2-3.jpg");
+				display: none;
             @include xl{
+                display: block;
                 grid-area: h2-3;
             }
         }

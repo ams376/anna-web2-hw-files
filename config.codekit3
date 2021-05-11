@@ -7,7 +7,7 @@
       "uuidString" : "A7CBDA7B-AA82-4FA0-AD95-EB4A5966B0EA"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34127",
   "files" : {
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -210,6 +210,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
+    },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/content\/hero-2.kit" : {
       "cB" : 0,
@@ -535,7 +546,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 640371835.02114797,
-    "displayValue" : "Web-2-HW-JG-V2-week-4-CSS-Grid-Tablet-Mobile",
+    "displayValue" : "Web-2-HW-JG-21",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0
@@ -2591,6 +2602,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2625,6 +2639,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,

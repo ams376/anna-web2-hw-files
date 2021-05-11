@@ -10,6 +10,18 @@ ul{
     }
 }
 
+.content {
+    margin-bottom: 24px;
+
+    @include md {
+        margin-bottom: 32px;
+    }
+
+    @include xl {
+        margin-bottom: 64px;
+    }
+}
+
 
 .hidden{
     display: none;
